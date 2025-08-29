@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/", // 👈 since your repo is jasmine-taneja.github.io
+  base: "/", 
   plugins: [react()],
   resolve: {
     alias: {
